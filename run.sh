@@ -1,4 +1,6 @@
 #! /bin/bash
+bash setup.sh
+pip install -r requirements.txt
 export PYTHONUNBUFFERED=0
 python style.py --style images/roda1.jpg \
   --checkpoint-dir checkpoints/ \
