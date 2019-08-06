@@ -10,7 +10,7 @@ apt-install() {
 
 #install ffmpeg to container
 add-apt-repository -y ppa:jonathonf/ffmpeg-3 2>&1
-apt-install || exit 1
+apt-install
 bash setup.sh
 pip install -r requirements.txt
 export PYTHONUNBUFFERED=0
