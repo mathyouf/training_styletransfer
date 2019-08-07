@@ -1,6 +1,8 @@
 
 bash setup.sh
+imageio_download_bin ffmpeg
 pip install -r requirements.txt
+imageio_download_bin ffmpeg
 export PYTHONUNBUFFERED=0
 python style.py --style images/roda1.jpg \
   --checkpoint-dir checkpoints/ \
